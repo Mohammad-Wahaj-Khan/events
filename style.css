@@ -1,0 +1,78 @@
+*{
+    overflow-x: hidden;
+
+}
+.img{
+    margin-top: 1%;
+    margin-left: 2%;
+    width: 200px;
+    height: 200px;
+    border: 2px solid rgb(59, 115, 115);
+    padding: 15px 5px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.aa{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 40px;
+}
+.pp{
+    color: rgb(59, 115, 115);
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 10%;
+    margin-left: 3%;
+}
+.p{
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+    color: rgb(59, 115, 115);
+}
+.div{
+    display: flex;
+    justify-content: space-around;
+}
+.td{
+    font-weight: bold;
+}
+.imgg{
+    margin: 0px 30%;
+    width:600px;
+    height:300px;
+}
+button {
+    font-size: 1.5em;
+    padding: 0.2em 0.5em;
+    margin: 0 0.5em;
+  }
+  
+  #counter {
+    font-size: 2em;
+  }
+   input{
+    margin-left: 5%;
+    width: 400px;
+    height: 50px;
+    /* border:none; */
+    /* text-decoration: underline; */
+    /* outline: none; */
+    /* background-color: #c5478a; */
+    /* background: linear-gradient(#9F2B68 , purple,pink); */
+  }  
+
+  .buTTon{
+    width: 400px;
+    height: 40px;
+    margin-left: 5.5%;
+    border-radius: 10px;
+    /* background: linear-gradient(#b24592,#f15f79); */
+    background: #b24592; /* fallback for old browsers */  
+    background: -webkit-linear-gradient(to left, #b24592, #f15f79); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #b24592, #f15f79); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
+    border: none;
+    font-weight: bold;
+  }
